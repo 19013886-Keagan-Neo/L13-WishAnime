@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">WishAnime</string>
+
+    <string name="tvTitle">Title</string>
+    <string name="etTitle">Enter anime here</string>
+    <string name="tvDesc">Description</string>
+    <string name="etDesc">Enter description here</string>
+    <string name="tvSeason">Season</string>
+    <string name="etSeason">Enter season here</string>
+    <string name="stars">Stars</string>
+    <string name="five">5</string>
+    <string name="four">4</string>
+    <string name="three">3</string>
+    <string name="two">2</string>
+    <string name="one">1</string>
+
+    <string name="title_activity_main">Home Screen</string>
+    <string name="title_activity_second">Show Animes</string>
+    <string name="title_activity_third">Modify Animes</string>
+
+    <string name="id">ID</string>
+    <string name="btnStart">Start</string>
+    <string name="btnExit">Exit</string>
+    <string name="btnShow5Stars">Show 5 stars</string>
+    <string name="btnShowAll">Show All Animes</string>
+    <string name="btnInsert">Insert</string>
+    <string name="btnUpdate">Update</string>
+    <string name="btnDelete">Delete</string>
+    <string name="btnCancel">Cancel</string>
+
+    <!--    <string-array name="spinnerStars">-->
+    <!--        <item>All</item>-->
+    <!--        <item>1 star</item>-->
+    <!--        <item>2 stars</item>-->
+    <!--        <item>3 stars</item>-->
+    <!--        <item>4 stars</item>-->
+    <!--        <item>5 stars</item>-->
+    <!--    </string-array>-->
+
+</resources>

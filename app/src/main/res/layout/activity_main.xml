@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="50dp"
+    android:background="@drawable/bgm1"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:gravity="center"
+            android:fontFamily="cursive"
+            android:textSize="60dp"
+            android:textColor="#C83CB9"
+            android:paddingVertical="40dp"
+            android:text="@string/app_name" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:backgroundTint="#FFD580"
+            android:textColor="@color/black"
+            android:layout_marginBottom="20dp"
+            android:text="@string/btnStart" />
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:backgroundTint="#FFD580"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:text="@string/btnExit" />
+    </LinearLayout>
+
+</LinearLayout>
