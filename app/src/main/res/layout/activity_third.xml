@@ -86,6 +86,12 @@
             android:layout_weight="1"
             android:text="@string/btnUpdate" />
 
+        <TextView
+            android:id="@+id/tvSpace"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
         <Button
             android:id="@+id/btnDelete"
             android:layout_width="0dp"
